@@ -209,6 +209,7 @@ ol {
   color: #fff;
   background-color: transparent;
   appearance: none;
+  width: 225px;
 }
 
 .search-form__textfield::placeholder {
