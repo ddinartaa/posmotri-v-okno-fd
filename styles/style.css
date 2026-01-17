@@ -222,6 +222,45 @@ ol {
   opacity: 0;
 }
 
+.button {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  font-size: 18px;
+  font-family: inherit;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__submit-button {
+width: 194px;
+align-self: flex-end;
+}
+
+.more-button {
+width: 100%;
+}
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
